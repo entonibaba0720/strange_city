@@ -1,0 +1,397 @@
+body {
+  background: #A3F7B5;
+}
+.building1 {
+  position: absolute;
+  width: 15%;
+  top: 30%;
+  height: 70%;
+  background: #454851;
+}
+.antenna-base {
+  position: absolute;
+  width: 60%;
+  height: 10%;
+  background: #3C3F47;
+  top: -10%;
+  left: 17%;
+}
+.antenna {
+  position: absolute;
+  width: 5%;
+  height: 150%;
+  background: #3C3F47;
+  top: -100%;
+  left: 50%;
+  border-radius: 20px;
+}
+.antenna-basic {
+  position: absolute;
+  width: 30%;
+  height: 20%;
+  background: #3C3F47;
+  top: -20%;
+  left: 37%;
+}
+.window1 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 8%;
+  left: 10%;
+}
+.window1:hover, .window2:hover, .window5:hover, .window9:hover {
+  background-color: yellow;
+}
+.window2 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 8%;
+  left: 40%;
+}
+.window3 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 8%;
+  left: 70%;
+}
+.window4 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 25%;
+  left: 70%;
+}
+.window5 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 25%;
+  left: 40%;
+}
+.window6 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 25%;
+  left: 10%;
+}
+.window7 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 42%;
+  left: 10%;
+}
+.window8 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 42%;
+  left: 40%;
+}
+.window9 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 42%;
+  left: 70%;
+}
+.window10 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 59%;
+  left: 10%;
+}
+.window11 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 59%;
+  left: 40%;
+}
+.window12 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 59%;
+  left: 70%;
+}
+.window13 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 75%;
+  left: 10%;
+}
+.window14 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 75%;
+  left: 40%;
+}
+.window15 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  background: white;
+  top: 75%;
+  left: 70%;
+}
+.door {
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 10%;
+  top: 90%;
+  left: 34%;
+}
+.building2 {
+  position: absolute;
+  width: 25%;
+  height: 50%;
+  background: #454851;
+  top: 50%;
+  left: 20%;
+}
+.b2window1 {
+  position: absolute;
+  background: white;
+  width: 80%;
+  height: 20%;
+  top: 10%;
+  left: 10%;
+}
+.b2window2 {
+  position: absolute;
+  background: white;
+  width: 80%;
+  height: 20%;
+  top: 40%;
+  left: 10%;
+}
+.b2window3 {
+  position: absolute;
+  background: white;
+  width: 50%;
+  height: 20%;
+  top: 70%;
+  left: 10%;
+}
+.b2door {
+  position: absolute;
+  background: red;
+  width: 20%;
+  height: 20%;
+  top: 80%;
+  left: 70%;
+}
+.b2doorlock {
+  position: absolute;
+  background: white;
+  width: 7%;
+  height: 5%;
+  top: 50%;
+}
+.star1 {
+  position: absolute;
+  background: yellow;
+  width: 5%;
+  height: 8%;
+  top: 5%;
+  left: 60%;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  animation: glitter 4.5s linear 0s infinite normal;
+    -webkit-animation: glitter 4.5s linear 0s infinite normal;
+    -moz-animation: glitter 5.5s linear 0s infinite normal;
+    -ms-animation: glitter 5.5s linear 0s infinite normal;
+    -o-animation: glitter 5.5s linear 0s infinite normal;
+}
+.star2 {
+  position: absolute;
+  background: yellow;
+  width: 5%;
+  height: 8%;
+  top: 5%;
+  left: 20%;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  animation: glitter 4.5s linear 0s infinite normal;
+  -webkit-animation: glitter 4.5s linear 0s infinite normal;
+    -moz-animation: glitter 4.5s linear 0s infinite normal;
+    -ms-animation: glitter 4.5s linear 0s infinite normal;
+    -o-animation: glitter 4.5s linear 0s infinite normal;
+}
+.star3 {
+  position: absolute;
+  background: yellow;
+  width: 5%;
+  height: 8%;
+  top: 20%;
+  left: 80%;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  animation: glitter 4.5s linear 0s infinite normal;
+    -webkit-animation: glitter 4.5s linear 0s infinite normal;
+    -moz-animation: glitter 4.5s linear 0s infinite normal;
+    -ms-animation: glitter 4.5s linear 0s infinite normal;
+    -o-animation: glitter 4.5s linear 0s infinite normal;
+}
+.star4 {
+  position: absolute;
+  background: yellow;
+  width: 5%;
+  height: 8%;
+  top: 18%;
+  left: 36%;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  animation: glitter 4.5s linear 0s infinite normal;
+    -webkit-animation: glitter 5.5s linear 0s infinite normal;
+    -moz-animation: glitter 5.5s linear 0s infinite normal;
+    -ms-animation: glitter 5.5s linear 0s infinite normal;
+    -o-animation: glitter 5.5s linear 0s infinite normal;
+}
+.moon {
+  position: absolute;
+  background: yellow;
+  width: 11%;
+  height: 20%;
+  top: 30%;
+  left: 70%;
+  -webkit-clip-path: circle(50.0% at 50% 50%);
+clip-path: circle(50.0% at 50% 50%);
+}
+.moon-cover {
+  position: absolute;
+  background: #A3F7B5;
+  width: 11%;
+  height: 20%;
+  top: 30%;
+  left: 67%;
+  -webkit-clip-path: circle(50.0% at 50% 50%);
+clip-path: circle(50.0% at 50% 50%);
+}
+.bole1 {
+  position: absolute;
+  width: 6%;
+  height: 15%;
+  right: 20%;
+  top: 85%;
+  background: #47140C;
+  -webkit-clip-path: polygon(20% 0%, 80% 0, 80% 100%, 20% 100%);
+clip-path: polygon(20% 0%, 80% 0, 80% 100%, 20% 100%);
+}
+.bole2 {
+  position: absolute;
+  width: 4%;
+  height: 8%;
+  right: 10%;
+  top: 92%;
+  background: #47140C;
+  -webkit-clip-path: polygon(20% 0%, 80% 0, 80% 100%, 20% 100%);
+clip-path: polygon(20% 0%, 80% 0, 80% 100%, 20% 100%);
+}
+.bole3 {
+  position: absolute;
+  width: 6%;
+  height: 25%;
+  right: 35%;
+  top: 75%;
+  background: #47140C;
+  -webkit-clip-path: polygon(20% 0%, 80% 0, 80% 100%, 20% 100%);
+clip-path: polygon(20% 0%, 80% 0, 80% 100%, 20% 100%);
+}
+.crown1 {
+  position: absolute;
+  background: green;
+  height: 23%;
+  width: 14%;
+  top: 65%;
+  right: 16%;
+  -webkit-clip-path: ellipse(25% 50% at 50% 50%);
+clip-path: ellipse(25% 50% at 50% 50%);
+}
+.crown2 {
+  position: absolute;
+  background: green;
+  height: 15%;
+  width: 10%;
+  top: 78%;
+  right: 7%;
+  -webkit-clip-path: ellipse(25% 50% at 50% 50%);
+clip-path: ellipse(25% 50% at 50% 50%);
+}
+.crown3 {
+  position: absolute;
+  background: green;
+  height: 25%;
+  width: 16%;
+  top: 52%;
+  right: 30%;
+  -webkit-clip-path: ellipse(25% 50% at 50% 50%);
+clip-path: ellipse(25% 50% at 50% 50%);
+}
+@-webkit-keyframes glitter {
+    0% {
+        -webkit-transform: scale(1.0);
+        opacity: 1;
+    }
+    25% {
+        -webkit-transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: scale(1.0);
+        opacity: 1;
+    }
+    75% {
+        -webkit-transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scale(1.0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes glitter {
+    0% {
+        -moz-transform: scale(1.0);
+        opacity: 1;
+    }
+    25% {
+        -moz-transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        -moz-transform: scale(1.0);
+        opacity: 1;
+    }
+    75% {
+        -moz-transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: scale(1.0);
+        opacity: 1;
+    }
+}
